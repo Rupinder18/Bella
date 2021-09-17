@@ -1,0 +1,84 @@
+.footer-div-main{
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 516px;
+    background-image: url(../../assests/footer.png);
+    margin-top: -50px;
+    width: 100%;
+}
+#footer-h2{
+font-weight: bold;
+font-size: 40px;
+margin-top: 0px;
+line-height: 57px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+padding-top: 150px;
+}
+#footer-h4{
+font-weight: lighter;
+font-size: 24px;
+line-height: 38px;
+text-align: center;
+letter-spacing: 0.2px;
+padding-top: 20px;
+color: #FFFFFF;
+
+}
+#btn1{
+font-weight: bold;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.2px;
+margin-right: 20px;
+color: #FFFFFF;
+background: #FA4A0C;
+border-radius: 10px;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+}
+#btn2{
+font-weight: bold;
+cursor: pointer;
+border: 1px solid white;
+padding: 10px 20px;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+background: transparent;
+border-radius: 10px;
+}
+.buton-div{
+    text-align: center;
+    padding-top: 50px;
+}
+@media (max-width:414px){
+    #footer-h2{
+        padding-top: 20px;
+        font-weight: 40px;
+        text-align: center;
+        width: 330px;
+        text-align: center;
+        margin-left: 40px;
+    }
+    .text-div{
+        width: 100%;
+    }
+    .footer-div-main{
+        background-image: none ;
+        background: #252B42;
+        margin-top: -120px;
+    }
+    #footer-h4{
+        font-size: 24px;
+        width: 265px;
+        text-align: center;
+        margin-left: 75px;
+    }
+    .buton-div{
+        padding: 40px 0px;
+    }
+}

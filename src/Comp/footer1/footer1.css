@@ -1,0 +1,29 @@
+.footer-last-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+}
+.footer-last-logo{
+    cursor: pointer;
+}
+
+.footer-last-links a{
+    color: #FA4A0C;
+    text-decoration: none;
+    font-size: 35px;
+    margin: 20px;
+}
+@media (max-width:414px){
+    .footer-last-logo{
+        display: none;
+    }
+    .footer-last-div{
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .footer-last-text{
+        font-size: 12px;
+    }
+}

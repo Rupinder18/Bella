@@ -1,0 +1,241 @@
+.desktop-navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+#not-shown{
+    display: none;
+}
+.desktop-header-7{
+    
+}
+.desktop-menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+}
+.right{
+    margin-right: -70px;
+}
+
+.nav-link{ 
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.2px;
+color: black;
+margin: 50px;
+text-decoration: none;
+}
+#home{
+    color: #FA4A0C;
+}
+.desktop-hero{
+height: 619px;
+background-image: url(../../assests/a1.png);
+
+}
+.food{
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+letter-spacing: 0.1px;
+color: #F7F7F7;
+padding-top: 50px;
+}
+.whythey{
+font-weight: bold;
+font-size: 58px;
+line-height: 80px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+}
+#why{
+    margin-top: 40px;
+}
+.download{
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #F7F7F7;
+margin-top: 20px;
+}
+.big-button{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 50px;
+}
+.master-button{
+padding: 16px 50px;
+justify-content: center;
+border: 1px solid #FFFFFF;
+border-radius: 30px;
+background: transparent;
+margin-right: 20px;
+color: white;
+}
+/* /////////////////////////// */
+.Group53{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 50px;
+} 
+.hr{
+    border: 2px solid grey;
+    opacity: 0.5;
+    width: 60%;
+    margin: auto;
+}
+#mobile2{
+   margin-left: 125px;
+   margin-top: -114px;
+
+}
+#mobile2 img{
+    margin-top: -160px;
+    margin-bottom: -207px;
+    margin-right: -212px;
+    margin-left: -122px;
+    
+}
+#mobile1{
+    margin-top: -53px;
+    margin-left: -21px;
+}
+#tingu1{
+    background:#FA4A0C;
+    border:none;
+}
+.hamburger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    cursor: pointer;
+    border: solid;
+    display: none;
+}
+.hamburger div, .hamburger div:after, .hamburger div:before{
+    background: black;
+    width: 35px;
+    height: 5px;
+    transition: all .5s;
+}
+.hamburger div:after, .hamburger div:before{
+    content: '';
+    position: absolute;
+}
+.hamburger div:before{
+    transform: translateY(-200%);
+}
+.hamburger div:after{
+    transform: translateY(200%);
+}
+.hamburger.open div{
+    background:transparent;
+}
+.hamburger.open div:before{
+    transform: rotate(-45deg);
+}
+.hamburger.open div:after{
+    transform: rotate(45deg);
+}
+.desktop-menu.links{
+    transform: translateY(0%);
+    transform: translateX(-10%);
+}
+.links.links{
+    padding: 10px;
+    margin: 20px;
+}
+@media (max-width:414px){
+   .hamburger{
+       display: block;
+       border: none;
+   }
+   .desktop-navbar{
+       width: 100%;
+   }
+      .nav-link{
+          margin: 10px;
+      }
+      .desktop-menu{
+          margin-left: -70px;
+          transform: translateY(-350%);
+      }
+      .desktop-hero{
+          background-image: none;
+          background-color: #FAFAFA;
+      }
+      .food{
+          color: #737373;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.1px;
+      }
+      .whythey{
+        font-size: 36px;
+        line-height: 42px;
+        color: #252B42;
+        padding: 10px;
+        margin-top: 20px;
+      }
+      #why{
+          display: none;
+      }
+      .download{
+        font-size: 24px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #737373;
+        padding: 35px;
+        margin-top: 0px;
+      }
+      #tingu{
+           color: #FA4A0C;
+           border: 1px solid #FA4A0C;
+           font-size: 24px;
+        
+      }
+      .master-button{
+        font-size: 24px;
+        margin-bottom: 20px;
+        padding: 16px 58px;
+      }
+      
+      #mobile2 img{
+        margin-left: -355px;
+        margin-top: 92px;
+        width: 450px;
+      }
+     
+      #mobile1 img{
+        width: 227px;
+        margin-left: 199px;
+        margin-top: -237px;
+      }
+      .Group53{
+          padding-bottom: 30px;
+          
+      }
+      #title{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        
+      }
+}
