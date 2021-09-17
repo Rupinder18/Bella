@@ -2,14 +2,21 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    
 }
 .variety-content{
-    width: 60%;
+    /* width: 50%; */
     padding-left: 100px;
 }
+.var-img{
+    
+    
+}
 .variety-logo{
-    width: 40%;   
+    /* width: 50%;    */
+    padding-top: 70px;
+    padding-right: -20px;
 }
 #variety-h3{
     font-size: 24px;
@@ -25,8 +32,6 @@ color: #252B42;
 width: 480px;
 }
 #variety-h4{
-    font-family: Montserrat;
-font-style: normal;
 font-weight: 500;
 font-size: 24px;
 line-height: 38px;
@@ -38,8 +43,11 @@ color: #737373;
         width: 100vw;
         padding-left: 0px;
     }
-    .variety-logo{
-        width: 100%;
+    .var-img{
+    /* margin-top: 112px;
+    margin-bottom: 270px;
+    margin-left: 36px;
+    width: 100vw; */
     }
     #variety-h3{
         font-size: 24px;
@@ -64,5 +72,6 @@ margin-top: 25px;
         margin-top: -113px;
     margin-left: -52px;
     margin-bottom: -130px;
+    width: 100%;
     }
 }
