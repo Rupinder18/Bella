@@ -75,3 +75,15 @@ margin-top: 25px;
     width: 100%;
     }
 }
+@media (max-width:360px){
+    #variety-h2{
+        margin-left: 8px;
+    }
+    #variety-h4{
+        text-align: center;
+        margin-left: 63px;
+    }
+    .var-img{
+        margin-left: -24px;
+    }
+}

@@ -165,6 +165,7 @@ color: white;
     margin-left: -70px;
     transform: translateY(0%);
 }
+
 @media (max-width:414px){
    .hamburger{
        display: block;
@@ -245,4 +246,15 @@ color: white;
         line-height: 36px;
         
       }
+}
+@media(max-width:360px){
+    #mobile1 img{
+        margin-left: 165px;
+    }
+    #mobile2 img{
+        margin-left: -331px;
+    }
+    .big-button{
+        margin-left: 25px;
+    }
 }

@@ -84,3 +84,11 @@ text-align: left;
         margin-left: 65px;
     }
 }
+@media(max-width:360px){
+    #create-h4{
+        margin-left: 44px;
+    }
+    .desktop-5-img-div{
+        margin-left: -133px;
+    }
+}
