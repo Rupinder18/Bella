@@ -157,9 +157,13 @@ color: white;
     transform: translateY(0%);
     transform: translateX(-10%);
 }
+.desktop-menu{
+    /* margin-left: -70px;
+    transform: translateY(-10%); */
+}
 .links.links{
-    padding: 10px;
-    margin: 20px;
+    margin-left: -70px;
+    transform: translateY(0%);
 }
 @media (max-width:414px){
    .hamburger{
@@ -173,8 +177,7 @@ color: white;
           margin: 10px;
       }
       .desktop-menu{
-          margin-left: -70px;
-          transform: translateY(-350%);
+         transform: translateY(-350%);
       }
       .desktop-hero{
           background-image: none;
