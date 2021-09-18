@@ -8,8 +8,22 @@
 #not-shown{
     display: none;
 }
-.desktop-header-7{
-    
+.fixed-div{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+   
+}
+#btn-fixed{
+width: 50px;
+height: 50px;
+border: transparent;
+background-color: black;
+border-radius: 50px;
+}
+#btn-fixed a{
+    text-decoration: none;
+    color: wheat;
 }
 .desktop-menu{
     display: flex;
@@ -115,6 +129,7 @@ color: white;
     margin-top: -53px;
     margin-left: -21px;
 }
+
 #tingu1{
     background:#FA4A0C;
     border:none;
@@ -213,6 +228,7 @@ color: white;
         padding: 35px;
         margin-top: 0px;
       }
+      
       #tingu{
            color: #FA4A0C;
            border: 1px solid #FA4A0C;
@@ -256,5 +272,12 @@ color: white;
     }
     .big-button{
         margin-left: 25px;
+    }
+}
+@media (max-width:540px){
+    .desktop-header-7{
+        width: 100%;
+        overflow-x: hidden;
+        border: solid;
     }
 }

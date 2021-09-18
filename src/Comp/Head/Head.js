@@ -28,7 +28,7 @@ const change =()=>{
 
 const Head = () => {
     return (
-        <div className='desktop-header-7'>  
+        <div id='Top' className='desktop-header-7'>  
           <div className='desktop-navbar'>
                 <div className='left'>
                   <a href="#">  <img className='bella' src={Logo}/></a>   
@@ -39,9 +39,9 @@ const Head = () => {
                 <div  className='right'>
                     <div id="Right" className='desktop-menu'>
                         <a id="home" className='nav-link' href="#">Home</a>
-                        <a className='nav-link' href="#" >Product</a>
-                        <a className='nav-link' href="#" >Faq</a>
-                        <a className='nav-link' href='#' >Contact</a>
+                        <a className='nav-link' href="#V1" >Product</a>
+                        <a className='nav-link' href="#S1" >Faq</a>
+                        <a className='nav-link' href='#F1' >Contact</a>
                     </div>
                 </div>
                 
@@ -67,7 +67,7 @@ const Head = () => {
             </div>
              </div>
              <div className='hr'></div>
-             <Appworks
+             <div id='S1' ><Appworks 
              title="How the app works"
              pic={mob1}
              h3="Create an account"
@@ -75,7 +75,7 @@ const Head = () => {
              account to get started'
              h4='An account is created with your email
              and a desired password'
-             />
+             /></div>
              <Variety/>
              <Appworks 
               pic={mob5}
@@ -87,6 +87,9 @@ const Head = () => {
              />
              <Footer/>
              <Footer1/>
+             <div className="fixed-div">
+                   <button id='btn-fixed'><a href='#Top'> <i class="fa fa-chevron-up" aria-hidden="true"></i><br/>Up</a></button>
+            </div>
         </div>
     )
 }

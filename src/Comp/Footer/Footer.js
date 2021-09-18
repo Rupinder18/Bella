@@ -8,8 +8,8 @@ const Footer = () => {
                  <h4 id='footer-h4'>Available on your favorite store. Start your premium experience now</h4>
              </div>
              <div className='buton-div'>
-                 <button id='btn1'>Playstore</button>
-                 <button id='btn2' >App store</button>
+                 <button id='btn1'><a href='https://play.google.com/store' target="_blank">Playstore</a></button>
+                 <button id='btn2' ><a href='https://play.google.com/store' target="_blank">App store</a></button>
              </div>
         </div>
     )

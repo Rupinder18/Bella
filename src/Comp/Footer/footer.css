@@ -32,12 +32,20 @@ font-size: 16px;
 line-height: 28px;
 letter-spacing: 0.2px;
 margin-right: 20px;
-color: #FFFFFF;
+
 background: #FA4A0C;
 border-radius: 10px;
 padding: 10px 20px;
 border: none;
 cursor: pointer;
+}
+#btn1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#btn2 a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 #btn2{
 font-weight: bold;

@@ -3,7 +3,7 @@ import '../variety/variety.css';
 import mob4 from '../../assests/mob4.png';
 const Variety = () => {
     return (
-        <div className='variety-main-div'>
+        <div className='variety-main-div' id='V1' >
             <div className='variety-content'>
                 <h3 id='variety-h3' >Explore varieties</h3>
                 <h2 id='variety-h2' >Shop for your favorites
